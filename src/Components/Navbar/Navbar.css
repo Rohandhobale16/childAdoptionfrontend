@@ -1,0 +1,96 @@
+/* Navbar Container */
+.navbar {
+    background-color: #ff6a88; /* Soft pink background */
+    font-family: 'Roboto', sans-serif;
+    z-index: 1000;
+  }
+
+
+#navbarcontainerfluid  {
+    padding-top: 0px !important;
+}
+  
+  .navbar-brand-text {
+    font-weight: bold;
+    font-size: 1.4rem;
+    color: #060606; /* White text for better contrast */
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  
+  .logo-img {
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  /* Navbar Links and Dropdowns */
+  .navbar-nav .nav-item {
+    margin-left: 15px;
+  }
+  
+  .nav-item .nav-link {
+    color: #000000 !important; 
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-item .nav-link:hover {
+    color: #ff99ac !important;
+  }
+  
+  /* Dropdown */
+  .navbar-nav .dropdown-menu {
+    background-color: rgb(255 227 227); 
+    border-radius: 5px;
+  }
+  
+  .navbar-nav .dropdown-menu .dropdown-item {
+    color: #000000 !important;
+  }
+  
+  .navbar-nav .dropdown-menu .dropdown-item:hover {
+    background-color: rgb(255, 175, 175) !important; 
+    color: #000000 !important;
+  }
+  
+  /* Navbar Button */
+  .navbar-nav .btn-primary {
+    background-color: #0a53be; /* Button background */
+    padding: 8px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navbar-nav .btn-primary:hover {
+    background-color: #ffffff;
+   
+    color:black
+  }
+  
+  /* Toggle Button */
+  .navbar-toggler-icon {
+    background-color: #fff; /* White toggle button */
+  }
+  
+  @media (max-width: 768px) {
+    .navbar-nav {
+      text-align: center;
+    }
+  
+    .navbar-nav .nav-item {
+      margin-left: 0;
+      margin-bottom: 10px;
+    }
+  
+    .navbar-nav .nav-link {
+      font-size: 1.1rem;
+    }
+  
+    .navbar-nav .btn-primary {
+      width: 100%;
+    }
+  }
+  

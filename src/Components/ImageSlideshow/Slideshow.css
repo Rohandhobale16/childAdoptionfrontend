@@ -1,0 +1,23 @@
+/* Add this to your CSS file */
+.image-slideshow-container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .carousel-inner {
+    border-radius: 10px;  /* Optional: for rounded corners */
+  }
+  
+
+  .slideshow-container{
+    display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-wrap: wrap;
+        margin-bottom: 5%;
+  }
+  .nav-button {
+    display: none;
+  }
+  

@@ -1,0 +1,70 @@
+/* Center the login card */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* background: linear-gradient(135deg, #ffffff, #ff6a88, #ff99ac); */
+  }
+  
+  /* Login card styles */
+  .login-card {
+    background: #fff;
+    padding: 30px;
+    width: 350px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  .login-title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Input field styling */
+  .input-group {
+    display: flex;
+    align-items: center;
+    background: #f5f5f5;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .input-group .icon {
+    color: #6998fc;
+    /* margin-right: 10px; */
+  }
+  
+  .input-group input {
+    border: none;
+    outline: none;
+    background: transparent;
+    width: 100%;
+    font-size: 16px;
+  }
+  
+
+  #login-btn:hover {
+    background: #ff4d6d;
+    border: #ff4d6d;
+  }
+  
+  /* Forgot password & Register links */
+  .login-options {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .login-options a {
+    font-size: 14px;
+    color: #ff6a88;
+    text-decoration: none;
+  }
+  
+  .login-options a:hover {
+    text-decoration: underline;
+  }

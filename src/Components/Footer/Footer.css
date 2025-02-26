@@ -1,0 +1,17 @@
+/* Background Image Above Footer */
+.footer-image {
+    background-image: url("child.png"); /* Correct path */
+    background-repeat: repeat-x;  /* Repeat horizontally */
+    background-size: contain;     /* Adjust size */
+    height: 100px;                /* Adjust height */
+    width: 100%; 
+    margin-top: 5%;                 /* Full width */
+  }
+  
+  /* Footer Styling */
+  .footer {
+    background-color: rgb(255, 227, 227);
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
